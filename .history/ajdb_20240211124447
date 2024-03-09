@@ -1,0 +1,12 @@
+{
+  cloud_pct
+  temp 
+  feels_like 
+  humidity 
+  min_temp 
+  max_temp 
+  wind_speed 4.
+  wind_degrees 1
+  sunrise 17076141
+  sunset 1707655
+}

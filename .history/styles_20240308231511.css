@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+form {
+  display: flex;
+  align-items: center;
+}
+
+#weather-details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  
+  border: 1px solid #ccc;
+  width: 500px;
+}
+

@@ -1,0 +1,49 @@
+// // const options = {
+// // method: 'GET',
+// // headers: {
+// //         'X-RapidAPI-Key': 'b45e96323fmshf5e4bc50d3b8a90p1e091djsnfb21cde4eb87',
+// // '       X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
+// //     }
+// // };
+
+// // fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Seattle', options)
+// //     .then(response => response.json())
+// //     .then(response => console.log(response))
+// //     .catch(err => console.error(err));
+
+
+
+// const options = {
+//     method: 'GET',
+//     headers: {
+//       'X-RapidAPI-Key': 'b45e96323fmshf5e4bc50d3b8a90p1e091djsnfb21cde4eb87',
+//       'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
+//     }
+//   };
+  
+//   fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Seattle', options)
+//     .then(response => response.json())
+//     .then(data => console.log(data))
+//     .catch(error => console.error(error));
+
+
+// const url = 'https://accuweatherstefan-skliarovv1.p.rapidapi.com/get24HoursConditionsByLocationKey';
+// const options = {
+// 	method: 'POST',
+// 	headers: {
+// 		'content-type': 'application/x-www-form-urlencoded',
+// 		'X-RapidAPI-Key': '9f5fc666cemsh950495f18781500p1999a7jsna0d8657b4aba',
+// 		'X-RapidAPI-Host': 'AccuWeatherstefan-skliarovV1.p.rapidapi.com'
+// 	},
+// 	body: new URLSearchParams({
+// 		locationKey: '<REQUIRED>'
+// 	})
+// };
+
+// try {
+// 	const response = await fetch(url, options);
+// 	const result = await response.text();
+// 	console.log(result);
+// } catch (error) {
+// 	console.error(error);
+// }

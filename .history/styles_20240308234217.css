@@ -1,0 +1,87 @@
+/* body {
+  font-family: Arial, sans-serif;
+}
+form {
+  display: flex;
+  align-items: center;
+}
+.card-body {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: none;
+  border: 1px solid #ccc;
+  width: 500px;
+}  */
+
+/* Styles for the card header */
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Styles for the card body */
+.card-body {
+  background-color: #fff;
+}
+
+/* Styles for the card title */
+.card-title {
+  font-size: 2.5rem;
+  color: #343a40;
+}
+
+/* Styles for the list items */
+.card-body li {
+  font-size: 1.2rem;
+  color: #1161a6;
+}
+
+/* Styles for the button */
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Styles for the table */
+.table {
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  border: 1px solid #dee2e6;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.table td {
+  color: #6c757d;
+}
+
+/* Styles for the table responsive container */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Styles for the table responsive container on small screens */
+@media (max-width: 576px) {
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 1rem;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #dee2e6;
+  }
+}
